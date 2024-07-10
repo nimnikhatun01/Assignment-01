@@ -114,6 +114,7 @@ text-align: center;
 height: 336px;
 border: 2px solid red;
 margin: 0 auto;
+margin-bottom: 32px;
 
 
 }
@@ -125,6 +126,7 @@ display: flex;
 margin: 0 auto;
 margin-top: 48px;
 justify-content: space-between;
+
 
 }
 .developer-item-title{
@@ -147,8 +149,57 @@ font-family: Azeret Mono;
 font-size: 16px;
 font-weight: 400;
 }
-.developer-image{
-    
+.developer-image{  
 
 }
+.btn-section{
+    width: 150px;
+height: 48px;
+}
+.developer-second-title{
+    padding-right: 100px;
+}
+.developer-second-title h1{
+    color:rgb(45, 46, 47);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+.developer-second-title p{
+    color: rgb(130, 133, 140);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
 /* end development style */
+/* start inspiration style */
+.inspiration-container{
+    width: 1140px;
+height: 777px;
+border: 2px solid red;
+margin: 0 auto;
+margin-top: 88px;
+}
+.Inspiration-header h1{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+text-align: center;
+}
+.Inspiration-header p{
+    color: rgb(130, 133, 140);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+margin-bottom: 80px;
+}
+.Inspiration-content{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+/* end inspiration style */
