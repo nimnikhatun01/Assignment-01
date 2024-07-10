@@ -6,11 +6,11 @@ body{
 
 /* header style */
 .header-section {
-    width: 100%;
+    width: 1440px;
     height: 131px;
-    border: 2px solid red;
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
 }
 .header-section h1{
     color: rgb(13, 19, 33);
@@ -34,9 +34,9 @@ border-radius: 8px;
 /* end header style */
 /* start banner style */
 .banner-cantainer{
-    width: 100%;
+    width: 1440px;
     height: 652px;
-    border: 2px solid red;
+    margin: 0 auto;
     background-image: url(../assets/Hero-bg.png);
     
 
@@ -83,7 +83,6 @@ margin-top: 24px;
 .developer-container{
     width: 1140px;
     height: 1395px;
-border: 2px solid red;
 margin: 0 auto;
 margin-top: 155px;
 border-radius: 16px;
@@ -112,7 +111,6 @@ text-align: center;
 .developer-item-content{
     width: 946px;
 height: 336px;
-border: 2px solid red;
 margin: 0 auto;
 margin-bottom: 32px;
 
@@ -121,7 +119,6 @@ margin-bottom: 32px;
 .developer-item-section{
 width: 850px;
 height: 240px;
-border: 2px solid red;
 display: flex;
 margin: 0 auto;
 margin-top: 48px;
@@ -177,7 +174,6 @@ height: 48px;
 .inspiration-container{
     width: 1140px;
 height: 777px;
-border: 2px solid red;
 margin: 0 auto;
 margin-top: 88px;
 }
@@ -207,7 +203,6 @@ margin-bottom: 80px;
 .my-current-target-container{
     width: 1140px;
 height: 463px;
-border: 2px solid red;
 margin: 0 auto;
 }
 .current-target-title h1{
@@ -293,7 +288,6 @@ font-weight: 800;
 .support-container{
     width: 1140px;
 height: 100%;
-border: 2px solid red;
 margin: 0 auto;
 background-image: url(../assets/bg-pic.png);
 border-radius: 16px;
@@ -303,8 +297,6 @@ margin-top: 44px;
 .Support-title{
     width: 1044px;
 height: 186px;
-border: 2px solid red;
-
 margin: 40px;
 
 }
@@ -348,3 +340,31 @@ background: rgb(255, 255, 255);
 margin-left:16px;
 }
 /* end my-current style */
+/* footer section style */
+.footer-container{
+    width: 1440px;
+    height: 100px;
+margin: 0 auto; 
+    
+}
+.footer-text{
+    width: 1140px;
+height: 36px;
+margin: 0 auto;
+display: flex;
+margin: 20px 150px;
+justify-content:space-around;
+align-items: center;
+
+}
+.footer-text h5{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+}
+.footer-text a{
+    padding-left: 10px;
+}
+
+/* end footer section style */
