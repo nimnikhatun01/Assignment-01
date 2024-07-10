@@ -203,3 +203,148 @@ margin-bottom: 80px;
     display: flex;
 }
 /* end inspiration style */
+/* start my-current style */
+.my-current-target-container{
+    width: 1140px;
+height: 463px;
+border: 2px solid red;
+margin: 0 auto;
+}
+.current-target-title h1{
+    text-align: center; 
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+}
+.current-target-title p{
+    color: rgb(130, 133, 140);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+padding-bottom: 48px;
+}
+
+.current-skill-container{
+    display: flex;
+    gap: 24px;
+}
+.terget-skill{
+   
+}
+.skill{
+    border-radius: 16px;
+    padding: 30px;
+background: rgba(255, 76, 30, 0.05);
+}
+.skill h2{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+}
+.skill p{
+    color:  rgb(130, 133, 140);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+}
+ a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+}
+.skill-second{
+    border-radius: 16px;
+    padding: 30px;
+background: rgba(0, 76, 232, 0.05);
+}
+.skill-second h2{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+}
+.skill-second p{
+    color:  rgb(130, 133, 140);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+}
+.skill-third{
+    border-radius: 16px;
+padding: 30px;
+background: rgba(255, 223, 0, 0.05);
+}
+.skill-third h2{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 800;
+}
+.skill-third p{
+    color:  rgb(130, 133, 140);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+}
+.support-container{
+    width: 1140px;
+height: 100%;
+border: 2px solid red;
+margin: 0 auto;
+background-image: url(../assets/bg-pic.png);
+border-radius: 16px;
+background-repeat: no-repeat;
+margin-top: 44px;
+}
+.Support-title{
+    width: 1044px;
+height: 186px;
+border: 2px solid red;
+
+margin: 40px;
+
+}
+.Support-title h1{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+text-align: center;
+}
+.Support-title p{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+}
+.Support-form{
+    margin: 0 auto;
+}
+.text-primary{
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+width: 548px;
+height: 57px;
+padding-right: 180px;
+background: rgb(255, 255, 255); 
+margin-left: 180px;
+text-align: center;
+}
+.sub-primary{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+padding: 17px;
+border-radius: 8px;
+border: none;
+background: rgb(255, 255, 255);
+margin-left:16px;
+}
+/* end my-current style */
